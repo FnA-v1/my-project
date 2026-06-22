@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Logging in with:', { email, password });
 
         if(email === "admin@gmail.com" && password === "123"){
-            window.location.href="/html/home.html";
+            window.location.href="./home.html";
         } else {
             alert("email atau password salah!");
         }
